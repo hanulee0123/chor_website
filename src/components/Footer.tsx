@@ -12,6 +12,11 @@ const Footer: React.FC = () => {
             <h2 className="text-2xl font-bold">{choirName}</h2>
             <p>設立: {foundationDate}</p>
           </div>
+          <div className="flex space-x-4">
+            <a href="#" className="hover:text-blue-400 transition duration-300">Facebook</a>
+            <a href="#" className="hover:text-blue-400 transition duration-300">Twitter</a>
+            <a href="#" className="hover:text-blue-400 transition duration-300">Instagram</a>
+          </div>
           <div>
             <p>&copy; {new Date().getFullYear()} {choirName}. All rights reserved.</p>
           </div>
