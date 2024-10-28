@@ -13,7 +13,7 @@ export const useConfig = (): Config => {
 
   useEffect(() => {
     setConfig({
-      choirName: process.env.NEXT_PUBLIC_CHOIR_NAME || '合唱団名をここに入力,
+      choirName: process.env.NEXT_PUBLIC_CHOIR_NAME || '合唱団名をここに入力',
       foundationDate: process.env.NEXT_PUBLIC_FOUNDATION_DATE || '2025年4月1日',
     })
   }, [])
